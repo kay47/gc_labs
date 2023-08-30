@@ -14,6 +14,10 @@ def whereami():
 def foo(name):
     return render_template('foo.html', to = name)
 
+@app.route('/tryout')
+def tryout():
+    return render_template('tryout.html')
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html')

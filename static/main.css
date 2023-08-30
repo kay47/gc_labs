@@ -1,0 +1,43 @@
+
+html {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 7rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red,
+                 5px 5px 5px black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bolder;
+  }
+  h2 {
+font-size: 24px;
+line-height: 23px;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-weight: bold;
+  }
+  h1 + p {
+  font-weight: bold;
+}
+
+p::first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+p {
+  font-size: 1.5rem;
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 1px;
+}
+body {
+color: #000;
+background-color: greenyellow;
+}
