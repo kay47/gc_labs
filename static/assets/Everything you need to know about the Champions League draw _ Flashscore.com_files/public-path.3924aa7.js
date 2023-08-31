@@ -1,0 +1,1 @@
+(self.webpackChunkflashscore=self.webpackChunkflashscore||[]).push([[2851],{19766:(s,a,e)=>{e.p=window.publicPath}},s=>{var a;a=19766,s(s.s=a)}]);

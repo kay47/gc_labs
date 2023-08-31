@@ -18,10 +18,22 @@ def foo(name):
 def login():
     return render_template('login.html')
 
-@app.route('/tryout2')
-def tryout2():
-    return render_template('tryout2.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact')
+
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
+
+@app.route('/news')
+def news():
+    return render_template('news.html')
 
 @app.errorhandler(404)
 def page_not_found(e):
